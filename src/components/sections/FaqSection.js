@@ -40,7 +40,7 @@ export default function FaqSection()
 
         <div className="mx-auto mt-7 w-full max-w-screen-md divide-y divide-neutral/5 rounded-xl bg-neutral/5">
           { faqs.map((faq, index) => (
-            <Disclosure as="div" className="p-6" defaultOpen={ false }>
+            <Disclosure key={index} as="div" className="p-6" defaultOpen={ false }>
               <DisclosureButton className="group flex w-full items-center justify-between">
                 <span className="font-semibold group-data-[hover]:text-neutral-700 group-data-[open]:text-neutral-700">
                   { faq.faqQuestion }
