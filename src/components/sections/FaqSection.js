@@ -36,7 +36,7 @@ export default function FaqSection()
   return (
     <section>
       <div className="container">
-        <h2 className='text-center text-4xl font-semibold'>We've Got Answers</h2>
+        <h2 className='text-center text-4xl font-semibold'>We&apos;ve Got Answers</h2>
 
         <div className="mx-auto mt-7 w-full max-w-screen-md divide-y divide-neutral/5 rounded-xl bg-neutral/5">
           { faqs.map((faq, index) => (

@@ -24,6 +24,14 @@ body {
     rgb(var(--background-start-rgb));
 } */
 
+@theme {
+  --color-insove-blue: #1CBCCF;
+  --color-insove-blue-dark: #19A9BA;
+  --color-insove-blue-light: #8DDDE7;
+  --color-insove-soft-blue: #E8F8FA;
+  --color-insove-blog-meta: #90C6CD;
+}
+
 @layer base {
   body {
     @apply text-neutral-500;

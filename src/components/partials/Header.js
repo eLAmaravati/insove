@@ -63,7 +63,7 @@ export default function Header()
           <ul className='grid grid-flow-col auto-cols-fr divide-x divide-neutral-300'>
             {
               navLinks.map((navlink, index) => (
-                <li className='text-center px-5 text-sm hover:text-insove-blue data-[active]:text-insove-blue'>
+                <li key={index} className='text-center px-5 text-sm hover:text-insove-blue data-[active]:text-insove-blue'>
                   <Link href={ navlink.href } className='text-center'>{ navlink.text }</Link>
                 </li>
               ))

@@ -38,7 +38,7 @@ export default function BookSection()
               >
                 <option value="" disabled selected hidden>Select Department</option>
                 { departments && departments.map((department) => (
-                  <option>{ department.department }</option>
+                  <option key={ department.id }>{ department.department }</option>
                 )) }
               </select>
               <div className="pointer-events-none absolute inset-y-0 right-3 flex items-center px-3 text-neutral-600">
