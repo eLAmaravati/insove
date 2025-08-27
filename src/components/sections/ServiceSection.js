@@ -2,7 +2,7 @@ import Image from 'next/image';
 export default function ServiceSection()
 {
   return (
-    <section className='container'>
+    <section id='services' className='container scroll-mt-24'>
       <div className="bg-insove-blue text-white rounded-2xl px-10 pt-16 pb-40 grid grid-cols-4 gap-10 bg-[url('/images/pattern.svg')] bg-cover bg-no-repeat">
         <div className="col-span-4 lg:col-span-2">
           <h2 className='font-semibold text-3xl text-pretty text-white'>Our Best Services for Your Solution</h2>

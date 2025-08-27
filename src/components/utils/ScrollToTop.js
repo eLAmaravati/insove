@@ -32,7 +32,7 @@ const ScrollToTop = () => {
       type="button"
       aria-label="Scroll to top"
       onClick={scrollToTop}
-      className={`fixed right-10 bottom-10 rounded-full bg-insove-soft-blue text-insove-blue size-14 bg-opacity-50 flex justify-center items-center hover:bg-opacity-100 transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+      className={`fixed right-10 cursor-pointer bottom-10 rounded-full bg-insove-soft-blue text-insove-blue size-14 bg-opacity-50 flex justify-center items-center hover:bg-opacity-100 transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
     >
       <ChevronUpIcon className="size-6" />
     </button>

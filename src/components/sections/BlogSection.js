@@ -4,7 +4,7 @@ import { PrimaryButton } from '../utils/Button';
 export default function BlogSection()
 {
   return (
-    <section id='blog'>
+    <section id='blog' className='scroll-mt-20'>
       <div className="container grid grid-cols-3 gap-10">
         <h2 className='font-semibold text-4xl col-span-3'>Our Recent Posts</h2>
         <article className="group relative col-span-3 cursor-pointer rounded-xl bg-white shadow-md lg:col-span-1">

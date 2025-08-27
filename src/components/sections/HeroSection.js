@@ -6,7 +6,7 @@ export default function HeroSection()
 {
   return (
     <section className='bg-insove-soft-blue'>
-      <div className="container pt-24 grid gap-20 grid-cols-2 lg:pt-5">
+      <div className="container pt-24 !pb-0 grid gap-20 grid-cols-2 lg:pt-5">
         <div className="col-span-2 place-self-center text-center *:my-7 lg:col-span-1 lg:text-left">
           <span className='inline rounded-full border bg-white px-8 py-3 text-xs uppercase tracking-widest text-insove-blue-dark shadow-sm'>
             <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg" className='inline mr-2'>
@@ -19,7 +19,7 @@ export default function HeroSection()
           <p className='text-neutral-500'>Your well-being is our top priority. At Insove, we are dedicated to providing compassionate, comprehensive, and cutting-edge healthcare. Our team of experienced medical professionals is here to support you through every step of your health journey.</p>
           <PrimaryButton href="#" text="Contact Us" />
         </div>
-        <figure className="col-span-2 bg-[url('/images/elips.svg')] bg-contain bg-bottom bg-no-repeat lg:col-span-1">
+        <figure className="col-span-2 bg-[url('/images/elips.svg')] bg-contain bg-bottom bg-no-repeat mb-0 lg:col-span-1">
           <Image src='/images/dokter-1.webp' alt='dokter' height={ 600 } width={ 400 } />
         </figure>
       </div>

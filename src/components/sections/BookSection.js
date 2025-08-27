@@ -13,7 +13,7 @@ export default function BookSection()
 
 
   return (
-    <section>
+    <section id='book' className='scroll-mt-24'>
       <div className="container space-y-10">
         <div>
           <h2 className='font-semibold text-3xl text-pretty text-neutral-700'>Book Appointment
